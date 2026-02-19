@@ -1,0 +1,33 @@
+{
+  "name": "standupmesh",
+  "version": "1.0.0",
+  "description": "Decentralized P2P Daily Standup Bot — no server, no account, no friction. Built on Hyperswarm for the Intercom Vibe Competition.",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js",
+    "listen": "node index.js --mode listen"
+  },
+  "keywords": [
+    "p2p",
+    "hyperswarm",
+    "standup",
+    "decentralized",
+    "trac",
+    "intercom",
+    "termux",
+    "team",
+    "productivity"
+  ],
+  "author": "[INSERT_YOUR_TRAC_ADDRESS_HERE]",
+  "license": "MIT",
+  "dependencies": {
+    "hyperswarm": "^4.7.15",
+    "hypercore-crypto": "^3.4.2",
+    "b4a": "^1.6.7",
+    "minimist": "^1.2.8"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
